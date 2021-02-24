@@ -1,0 +1,69 @@
+body {
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+
+  
+button {
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+#menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    width: 100%;
+    margin: auto;
+    border: 3px solid black
+}
+#menuText {
+    padding: 5px;
+}
+
+#buttons {
+    align-items: center;
+    display: flex;
+    
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.box {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.titlePriceDescription {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+.titlePrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuImage {
+    padding-right: 15px;;
+}
+
+@media (max-width: 50px) {
+    .menuImage {
+        width: 75px;
+        height: 75px;
+    }
+}
